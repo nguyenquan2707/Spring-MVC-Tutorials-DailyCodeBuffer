@@ -1,0 +1,4 @@
+KeyNoted:
+redisTemplate.opsForHash().put(KEY, user.getId().toString(), user);
+redisTemplate.opsForHash().values(KEY);
+.....

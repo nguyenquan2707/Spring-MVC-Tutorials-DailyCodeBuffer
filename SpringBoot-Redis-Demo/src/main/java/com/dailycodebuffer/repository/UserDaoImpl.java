@@ -18,6 +18,7 @@ public class UserDaoImpl implements UserDao {
     @Override
     public boolean saveUser(User user) {
         try {
+            //save data as hash
             redisTemplate.opsForHash().put(KEY, user.getId().toString(), user);
             return true;
         } catch (Exception e) {
