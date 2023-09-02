@@ -19,3 +19,4 @@ This Project covers how to use Spring Boot with Spring Kafka to Publish JSON/Str
 ## Consume from the Kafka Topic via Console
 - `bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic Kafka_Example --from-beginning`
 - `.\bin\windows\kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic NewTopic --from-beginning`
+//Start kafka consumer to see the log
